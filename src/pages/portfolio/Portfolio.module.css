@@ -1,0 +1,22 @@
+.portfolio{
+    width: 100vw;
+    padding-inline: 10px;
+}
+
+.portfolio_container{
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media(max-width: 900px){
+    .portfolio_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 570px){
+    .portfolio_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+}

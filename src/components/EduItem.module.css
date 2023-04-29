@@ -1,0 +1,45 @@
+.edu_item{
+    position: relative;
+    padding-left: 60px;
+}
+
+.edu_item:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.edu_item::before{
+    content: '';
+    border-left: 1px solid var(--border-color);
+    inset-block: 0;
+    position: absolute;
+    left: 20px;
+}  
+
+.icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+.year{
+    background-color: var(--container-color);
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: var(--tiny-font-size);
+    font-weight: var(--weight-600);
+}
+
+.subtitle{
+    margin-block: 20px 10px;
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-500);
+}
+
+

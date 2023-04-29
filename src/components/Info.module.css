@@ -1,0 +1,16 @@
+.info_title,
+.info_desc {
+    font-size: var(--small-font-size);
+}
+
+.info_desc{
+    color: var(--title-color);
+    font-weight: var(--weight-600);
+}
+
+
+@media(max-width:512px){
+    .list_item{
+        margin: 0 auto;
+    }
+}
