@@ -64,7 +64,7 @@ const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: <a href='https://myhotel.onrender.com/' target="_blank">Click Here</a>,
+                desc: <a href='https://weather-app-host-c2c74.web.app/' target="_blank">Click Here</a>,
             },
         ],
         descript: {
