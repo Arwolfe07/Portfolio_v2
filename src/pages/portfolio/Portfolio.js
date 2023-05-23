@@ -98,6 +98,28 @@ const portfolio = [
     },
     {
         id: 5,
+        img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1684853144/crypto_zyjpn1.png',
+        title: 'Crypto App',
+        details: [
+            {
+                icon: <FaCode />,
+                title: 'Skills Used : ',
+                desc: 'React Js, APIs, Chart.js, redux toolkit, antd',
+            },
+            {
+                icon: <FiExternalLink />,
+                title: 'Preview : ',
+                desc: 'https://cryptofunk-1.onrender.com/cryptocurrencies',
+            },
+        ],
+        descript: {
+            icon: <FiFileText />,
+            title: 'Description : ',
+            desc: 'A crypto currency app where you can view latest crypto news as well as prices. Coinranking API and bing-news-search API are used for getting information.',
+        },
+    },
+    {
+        id: 6,
         img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1682746300/Food_fubkp5.png',
         title: 'Food App',
         details: [
