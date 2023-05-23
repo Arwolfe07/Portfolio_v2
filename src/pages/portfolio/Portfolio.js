@@ -98,7 +98,7 @@ const portfolio = [
     },
     {
         id: 5,
-        img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1684853144/crypto_zyjpn1.png',
+        img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1684858262/crypto_1_mnmnp0.png',
         title: 'Crypto App',
         details: [
             {
