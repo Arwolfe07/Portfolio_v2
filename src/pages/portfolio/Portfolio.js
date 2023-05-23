@@ -109,7 +109,7 @@ const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'https://cryptofunk-1.onrender.com/cryptocurrencies',
+                desc: <a href='https://cryptofunk-1.onrender.com/cryptocurrencies' target="_blank">Click Here</a>,
             },
         ],
         descript: {
