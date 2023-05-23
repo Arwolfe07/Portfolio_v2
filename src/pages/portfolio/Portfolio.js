@@ -115,7 +115,7 @@ const portfolio = [
         descript: {
             icon: <FiFileText />,
             title: 'Description : ',
-            desc: 'A crypto currency app to view latest crypto news as well as prices. Rapid APIs are used for getting information.',
+            desc: 'A crypto currency app to view latest crypto news as well as prices.',
         },
     },
     {
