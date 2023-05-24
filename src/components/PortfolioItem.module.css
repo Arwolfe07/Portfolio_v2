@@ -47,6 +47,7 @@
     display: grid;
     place-items: center;
     padding: 15px;
+    
 }
 
 .modal_content {
@@ -56,6 +57,7 @@
     padding: 32px;
     border-radius: 10px;
     position: relative;
+    
 }
 
 .modal_close {
@@ -119,7 +121,7 @@
         position: fixed;
         top: 50px;
         width: 30rem;
-        height: 40rem;   
+        height: 30rem;   
     }
 
     .modal_img {
@@ -152,15 +154,17 @@
     
 }
 
-@media (max-width: 340px){
+@media (max-width: 428px){
     .portfolio_modal{
         padding: 0;
     }
     .modal_content{
         width: 75%;
         margin: 0 auto;
+        height: fit-content;
     }
     .modal_img {
-        height: 180px;
+        height: 40%;
     }
+    
 }
