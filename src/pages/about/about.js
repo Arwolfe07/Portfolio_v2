@@ -47,7 +47,7 @@ const About = () => {
                             <Info />
                         </ul>
                         <div className={classes.down}>
-                            <a href="https://res.cloudinary.com/des95gv2m/image/upload/v1684856993/WolfeChemE/edited_Aditya_Rana_1_jq46gx.pdf"
+                            <a href="https://res.cloudinary.com/des95gv2m/image/upload/v1690354387/WolfeChemE/Aditya_Rana_Resume_26-07-2023-12-11-51_1_jzorgy.pdf"
                                 className={`${classes.down} button`} download=''>
                                 Download CV{' '}
                                 <span className='button_icon'>
