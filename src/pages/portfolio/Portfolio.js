@@ -120,6 +120,28 @@ const portfolio = [
     },
     {
         id: 6,
+        img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1690354431/WolfeChemE/Screenshot_2023-07-26_121741_hpdhqh.png',
+        title: 'Stack-Overflow Clone',
+        details: [
+            {
+                icon: <FaCode />,
+                title: 'Skills Used : ',
+                desc: 'MongoDb, ReactJs, ExpressJs, Node Js, Stripe',
+            },
+            {
+                icon: <FiExternalLink />,
+                title: 'Preview : ',
+                desc: <a href='https://kaleidoscopic-nasturtium-4f0e9b.netlify.app/#/' target="_blank">Click Here</a>,
+            },
+        ],
+        descript: {
+            icon: <FiFileText />,
+            title: 'Description : ',
+            desc: 'A clone of famous Stack-Overflow with some new features.',
+        },
+    },
+    {
+        id: 7,
         img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1682746300/Food_fubkp5.png',
         title: 'Food App',
         details: [
