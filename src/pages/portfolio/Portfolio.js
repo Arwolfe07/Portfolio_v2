@@ -50,7 +50,6 @@ const portfolio = [
             desc: 'A books website where you can easily download chemical engineering books after signing up.',
         },
     },
-
     {
         id: 3,
         img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1682746299/Weather_k3ghqm.png',
@@ -73,7 +72,6 @@ const portfolio = [
             desc: 'A react weather app where you can view weather for different citys and districts throughtout the world.',
         },
     },
-
     {
         id: 4,
         img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1682760097/portfolio_v1_un9dph.png',
@@ -142,6 +140,28 @@ const portfolio = [
     },
     {
         id: 7,
+        img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1698571398/Screenshot_2023-10-29_142007_rwrz0p.png',
+        title: 'WePlayChess(WPC)',
+        details: [
+            {
+                icon: <FaCode />,
+                title: 'Skills Used : ',
+                desc: 'MERN stack, JWT, Chess.js, socket.io',
+            },
+            {
+                icon: <FiExternalLink />,
+                title: 'Preview : ',
+                desc: <a href='https://rainbow-cranachan-787d8b.netlify.app/' target="_blank">Click Here</a>,
+            },
+        ],
+        descript: {
+            icon: <FiFileText />,
+            title: 'Description : ',
+            desc: 'A chess game, play with friends or alone, your choice.',
+        },
+    },F
+    {
+        id: 8,
         img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1682746300/Food_fubkp5.png',
         title: 'Food App',
         details: [
