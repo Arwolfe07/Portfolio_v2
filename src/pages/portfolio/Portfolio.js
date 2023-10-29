@@ -159,7 +159,7 @@ const portfolio = [
             title: 'Description : ',
             desc: 'A chess game, play with friends or alone, your choice.',
         },
-    },F
+    },
     {
         id: 8,
         img: 'https://res.cloudinary.com/des95gv2m/image/upload/v1682746300/Food_fubkp5.png',
